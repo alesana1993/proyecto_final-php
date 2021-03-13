@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/perseverance.jpg) no-repeat center top;
+    background-size: cover ;
+    font-family: sans-serif;
+    height: 100vh;
+    
+}
+
+.titulo {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.titulo input[type='submit'] {
+    opacity: 10;
+    padding: 60px 80px;
+    border-radius: 10px;
+    /*transition: opacity 20s ease-in-out;*/
+    box-shadow: 0px 0px 25px blue;
+    color: black;
+}
+.titulo input[type='submit']:hover {
+    box-shadow: 0px 0px 10px white;
+}
